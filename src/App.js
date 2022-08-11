@@ -26,7 +26,7 @@ function Model(props) {
   return (
     <>
       <PerspectiveCamera makeDefault position={[0, 0, 5]} />
-      <OrbitControls ref={orbitControlsRef} enableZoom='false' minAzimuthAngle={-0.2} maxAzimuthAngle={0.2} minPolarAngle={1.6} maxPolarAngle={1.8} target={[0, 2, -5]}/>
+      <OrbitControls ref={orbitControlsRef} enableZoom={false} minAzimuthAngle={-0.2} maxAzimuthAngle={0.2} minPolarAngle={1.6} maxPolarAngle={1.8} target={[0, 2, -5]}/>
       <ambientLight args={['blue', 0.5]} />
       <spotLight position={[10, 15, 10]} angle={0.3} />
       <Suspense fallback={null}>
