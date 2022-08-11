@@ -1,12 +1,18 @@
 import { Suspense, useEffect, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei';
 import { PerspectiveCamera } from '@react-three/drei';
-import styles from './App.scss'
+import './App.scss'
 
 function Model(props) {
-  const { nodes, materials } = useGLTF('robot.glb');
+  const group = useRef();
+  const { nodes, materials, animations } = useGLTF('robotAnimated.glb');
+  const { actions } = useAnimations(animations, group);
   const orbitControlsRef = useRef(null);
+
+  useEffect(() => {
+    actions.PlaneAction.play();
+  });
 
   useFrame((state) => {
     if(!!orbitControlsRef.current){
@@ -15,13 +21,13 @@ function Model(props) {
       orbitControlsRef.current.setPolarAngle((y/10)+1.7);
       orbitControlsRef.current.update();
     }
-  })
+  });
 
   useEffect(() => {
     if(!!orbitControlsRef.current){
       console.log(orbitControlsRef.current);
     }
-  }, [orbitControlsRef.current])
+  }, [orbitControlsRef.current]);
 
   return (
     <>
@@ -30,11 +36,13 @@ function Model(props) {
       <ambientLight args={['blue', 0.5]} />
       <spotLight position={[10, 15, 10]} angle={0.3} />
       <Suspense fallback={null}>
-        <group {...props} dispose={null}>
-          <mesh geometry={nodes.Cube.geometry} material={materials['Material.004']} />
-          <mesh geometry={nodes.Plane.geometry} material={materials['Material.002']} position={[0.28, 0.5, 0.61]} rotation={[1.57, 0, 0]} scale={0.07} material-color={'gray'} />
-          <mesh geometry={nodes.Cube001.geometry} material={materials['Material.004']} position={[0, -0.91, 0]} scale={1.22} />
+      <group ref={group} {...props} dispose={null}>
+        <group name="Scene">
+          <mesh name="Cube" geometry={nodes.Cube.geometry} material={materials['Material.004']} />
+          <mesh name="Plane" geometry={nodes.Plane.geometry} material={materials['Material.002']} position={[0.28, 0.5, 0.61]} rotation={[1.57, 0, 0]} scale={0.07} material-color='gray'/>
+          <mesh name="Cube001" geometry={nodes.Cube001.geometry} material={materials['Material.004']} position={[0, -0.91, 0]} scale={1.22} />
         </group>
+      </group>
       </Suspense>
     </>
   );
