@@ -1,6 +1,7 @@
-import { Canvas } from '@react-three/fiber';
 import styled from 'styled-components';
-import Robot from '../components/Robot';
+import Header from '../components/Header';
+import HomeIntro from '../components/home/HomeIntro';
+import Bottom from '../components/Bottom';
 
 const StyledHome = styled.div`
     height: 100vh;
@@ -10,9 +11,9 @@ const StyledHome = styled.div`
 function Home() {
     return(
         <StyledHome>
-            <Canvas>
-                <Robot />
-            </Canvas>
+            <Header />
+            <HomeIntro />
+            <Bottom />
         </StyledHome>
     );
 }

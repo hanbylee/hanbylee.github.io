@@ -6,6 +6,11 @@ const font = {
     }
 }
 
+const size = {
+    innerMargin: `3.2rem`,
+    topMargin: `12rem`
+}
+
 const breakpoint = {
     sm: '599px',
     md: '904px',
@@ -20,7 +25,7 @@ const device = {
 }
 
 const theme = {
-    font, device
+    font, size, device
 };
 
 export default theme;
