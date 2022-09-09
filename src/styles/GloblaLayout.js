@@ -19,4 +19,12 @@ const GlobalInner = styled.div`
     margin: 0 ${(p) => p.theme.size.innerMargin};
 `;
 
-export { GlobalOuter, GlobalInner };
+const ProjectInner = styled(GlobalInner)`
+    margin: 0 ${(p) => p.theme.size.projectMargin};
+
+    @media ${(p) => p.theme.device.tablet} {
+        margin: 0 ${(p) => p.theme.size.innerMargin};
+    }
+`;
+
+export { GlobalOuter, GlobalInner, ProjectInner };

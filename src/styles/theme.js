@@ -8,6 +8,7 @@ const font = {
 
 const size = {
     innerMargin: `3.2rem`,
+    projectMargin: `19.2rem`,
     topMargin: `12rem`
 }
 
@@ -18,10 +19,9 @@ const breakpoint = {
 }
 
 const device = {
-    xs: `only screen and (max-width: ${breakpoint.sm})`,
-    sm: `only screen and (min-width: ${breakpoint.sm})`,
-    md: `only screen and (min-width: ${breakpoint.md})`,
-    lg: `only screen and (min-width: ${breakpoint.lg})`
+    mobile: `only screen and (max-width: ${breakpoint.sm})`,
+    tablet: `only screen and (max-width: ${breakpoint.md})`,
+    desktop: `only screen and (min-width: ${breakpoint.md})`
 }
 
 const theme = {

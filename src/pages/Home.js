@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import Header from '../components/Header';
 import HomeIntro from '../components/home/HomeIntro';
-import Bottom from '../components/Bottom';
+import { Bottom } from '../components/Bottom';
+import Footer from '../components/Footer';
 
 const StyledHome = styled.div`
-    height: 100vh;
+    width: 100vw;
     background: black;
 `;
 
@@ -14,6 +15,7 @@ function Home() {
             <Header />
             <HomeIntro />
             <Bottom />
+            <Footer />
         </StyledHome>
     );
 }

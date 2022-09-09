@@ -21,6 +21,7 @@ const HomeIntroContent = styled.div`
         position: absolute;
         margin-top: 16vh;
         text-align: center;
+        line-height: 125%;
         background: linear-gradient(to bottom, white 70%, rgba(255, 255, 255, 0.3) 100%);
         -webkit-background-clip: text;
                 background-clip: text;
@@ -46,7 +47,7 @@ function HomeIntro() {
         <StyledHomeIntro>
             <GlobalOuter>
                 <HomeIntroContent>
-                    <h1>Hello!<br />I'm Hanbyeol Lee,<br />a UX engineer specialized in<br />AI and graphics.</h1>
+                    <h1>Hello world!<br /> I'm Hanbyeol,<br />an interaction engineer<br />specialized in<br /> AI and graphics.</h1>
                     <HomeIntroBg />
                     <Canvas className='threejs'>
                         <Robot />

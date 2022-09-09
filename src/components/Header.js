@@ -8,6 +8,7 @@ const StyledHeader = styled.header`
     position: fixed;
     top: 0;
     z-index: 10;
+    background: linear-gradient(180deg, black 0%, black 50%, rgba(0, 0, 0, 0) 100%);
 
     .headerHome {
         font-family: ${(p) => p.theme.font.family.sans};

@@ -41,7 +41,7 @@ function Robot(props) {
     return(
         <>
             <PerspectiveCamera makeDefault position={[0, 0, 5]} />
-            <OrbitControls ref={orbitControlsRef} enableZoom={false} minAzimuthAngle={-0.2} maxAzimuthAngle={0.2} minPolarAngle={1.6} maxPolarAngle={1.8} target={[0, 2, -6]}/>
+            <OrbitControls ref={orbitControlsRef} enableZoom={false} minAzimuthAngle={-0.2} maxAzimuthAngle={0.2} minPolarAngle={1.6} maxPolarAngle={1.8} target={[0, 2, -7]}/>
             <ambientLight args={['white', 1]} />
             <spotLight args={[leftLightColor, 1]} position={[-30, 20, 30]} angle={0.3} />
             <spotLight args={[rightLightColor, 1]} position={[30, -20, 10]} angle={0.3} />
