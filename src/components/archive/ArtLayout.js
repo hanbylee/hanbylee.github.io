@@ -10,6 +10,7 @@ const ArtContainer = styled.div`
 	width: 100%;
 	height: 100%;
 	margin-bottom: 1.6rem;
+	cursor: pointer;
 `;
 
 export { StyledArt, ArtContainer };
