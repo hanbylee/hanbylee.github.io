@@ -11,7 +11,7 @@ function ThisOrThat() {
             <GlobalOuter>
                 <ProjectInner>
                     <ProjectInfoContainer>
-                        <ProjectInfoImage src='images/this-or-that/projectinfo.jpg' />
+                        <ProjectInfoImage src='images/this-or-that/main.jpg' />
                         <div>
                             <h1>This or That</h1>
                             <h5 className='korean' style={{ fontWeight:300 }}>소셜 로봇의 포인팅 제스처와 발화 방식에 따른 사용자의 인식 연구</h5>
@@ -35,7 +35,7 @@ function ThisOrThat() {
                             </div>
                             <div>
                                 <h6>Duration</h6>
-                                <p>2019.12 ~ 2020.02 (3개월)</p>
+                                <p>2020.02 (3개월)</p>
                             </div>
                             <div>
                                 <h6>Achievement</h6>
@@ -44,8 +44,8 @@ function ThisOrThat() {
                         </ProjectInfoContent>
                     </ProjectInfoContainer>
                     <ProjectContentOuter>
-                        <h2>Background</h2>
                         <ProjectContentInner>
+                            <h2>Background</h2>
                             <p>
                                 우리는 같은 공간에 있는 사람과 대화할 때 주변의 사물, 장소 등이 자주 토픽이 되고, 제스처나 지시어를 사용해 위치 정보를 공유한다.
                                 로봇 또한, 휴대폰이나 스마트 스피커와 달리 언어적 의사소통뿐만 아니라 비언어적 의사소통을 가능하게 하는 물리적인 형태(physical embodiment)를 가지고 있다.
@@ -100,11 +100,11 @@ function ThisOrThat() {
                         <ProjectContentInner>
                             <h2>Study Design</h2>
                             <ProjectContentBox>
-                                    <h6>Research Question:</h6>
-                                    <p>
-                                    “로봇의 언어적, 비언어적 포인팅은 사용자의 인식에 어떤 영향을 끼치며, 효과적인 포인팅 인터랙션은 무엇일까?”
-                                    </p>
-                                </ProjectContentBox>
+                                <h6>Research Question:</h6>
+                                <p>
+                                “로봇의 언어적, 비언어적 포인팅은 사용자의 인식에 어떤 영향을 끼치며, 효과적인 포인팅 인터랙션은 무엇일까?”
+                                </p>
+                            </ProjectContentBox>
                             <p>
                                 로봇의 포인팅 관련 발화 및 제스처를 다양한 조건으로 프로토타이핑한 후, 상황에 따라 로봇의 표현에 대한 사용자의 인식을 정량 조사한다.
                             </p>
@@ -228,15 +228,13 @@ function ThisOrThat() {
                             </ProjectContentImg>
                         </ProjectContentInner>
                         <ProjectContentInner>
-                            <h3>2. 사용한 소프트웨어</h3>
-                            <ul>
-                                <li>데이터 분석: SPSS</li>
-                            </ul>
-                        </ProjectContentInner>
-                        <ProjectContentInner>
                             <h3>3. Results</h3>
                             <p>실험을 통해 각 조건의 로봇이 사용자의 인식에 미치는 영향을 조사하기 위해 이원 반복측정 분산분석(two-way RM ANOVA)을 수행했다.</p>
                             <p>로봇의 효율성, 사교성, 자연스러움 및 제품 평가 측정에 대해 신뢰도 분석(Cronbach's alpha) 시, 모두 0.6 이상으로 유의한 결과가 나왔다.</p>
+                            <h4 className='korean'>a. 사용한 소프트웨어</h4>
+                            <ul>
+                                <li>데이터 분석: SPSS</li>
+                            </ul>
                             <details>
                                 <summary style={{cursor:'pointer'}}>신뢰도 분석 결과</summary>
                                 <ProjectContentImg>
@@ -293,15 +291,13 @@ function ThisOrThat() {
                             </ProjectContentImg>
                         </ProjectContentInner>
                         <ProjectContentInner>
-                            <h3>2. 사용한 소프트웨어</h3>
-                            <ul>
-                                <li>데이터 분석: SPSS</li>
-                            </ul>
-                        </ProjectContentInner>
-                        <ProjectContentInner>
                             <h3>3. Results</h3>
                             <p>실험을 통해 각 조건의 로봇이 사용자의 인식에 미치는 영향을 조사하기 위해 이원 반복측정 분산분석(two-way RM ANOVA)을 수행했다.</p>
                             <p>로봇의 효율성, 사교성, 자연스러움, 유능함, 신뢰성 및 제품 평가 측정에 대해 신뢰도 분석(Cronbach's alpha) 시, 모두 0.6 이상으로 유의한 결과가 나왔다.</p>
+                            <h4 className='korean'>a. 사용한 소프트웨어</h4>
+                            <ul>
+                                <li>데이터 분석: SPSS</li>
+                            </ul>
                             <details>
                                 <summary style={{cursor:'pointer'}}>신뢰도 분석 결과</summary>
                                 <ProjectContentImg>
@@ -420,7 +416,7 @@ function ThisOrThat() {
                         <ProjectContentInner>
                             <h2>Publication</h2>
                             <p>
-                                <a href='https://ieeexplore.ieee.org/document/9341067' style={{ color:'white' }}>This or That: The Effect of Robot’s Deictic Expression on User’s Perception</a><br /> 
+                                <a href='https://ieeexplore.ieee.org/document/9341067'>This or That: The Effect of Robot’s Deictic Expression on User’s Perception</a><br /> 
                                 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
                             </p>
                         </ProjectContentInner>

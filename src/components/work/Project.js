@@ -39,9 +39,9 @@ const ProjectInfoContent = styled.div`
     padding: 3.2rem 6.4rem;
     border-radius: 10rem;
     border-top: 0.5rem solid white;
-    border-right: 0.3rem solid white;
-    border-bottom: 0.1rem solid white;
-    border-left: 0.3rem solid white;
+    border-right: 0.2rem solid white;
+    border-top: 0.5rem solid white;
+    border-left: 0.2rem solid white;
 
     div {
         width: 40%;
@@ -86,6 +86,10 @@ const ProjectContentInner = styled.div`
         font-weight: 300;
         color: white;
         line-height: 180%;
+    }
+
+    a {
+        color: white;
     }
 `;
 

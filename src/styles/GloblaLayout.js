@@ -27,4 +27,9 @@ const ProjectInner = styled(GlobalInner)`
     }
 `;
 
-export { GlobalOuter, GlobalInner, ProjectInner };
+const ArchiveInner = styled(ProjectInner)`
+    padding: 12.6rem 0;
+`;
+
+
+export { GlobalOuter, GlobalInner, ProjectInner, ArchiveInner };

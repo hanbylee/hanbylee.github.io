@@ -15,6 +15,15 @@ const CardContainer = styled.div`
         max-width: 32rem;
     }
 
+    :hover {
+        z-index: 5;
+        transform: translateY(-1rem);
+        filter: drop-shadow(0 1.6rem 1.6rem black);
+        transition: all 0.3s ease-in-out;
+    }
+`;
+
+const FeaturedCardContainer = styled(CardContainer)`
     @media ${(p) => p.theme.device.desktop} {
         position: absolute;
 
@@ -34,19 +43,12 @@ const CardContainer = styled.div`
             margin-top: -5rem;
         }
     }
-
-    :hover {
-        z-index: 5;
-        transform: translateY(-1rem);
-        filter: drop-shadow(0 1.6rem 1.6rem black);
-        transition: all 0.3s ease-in-out;
-    }
 `;
 
 const CardImage = styled.img`
     width: 100%;
-    height: 36rem;
-    border-radius: 4rem;
+    height: 24rem;
+    border-radius: 4rem 4rem 0 0;
     src: url(${(p) => p.thumbnail});
     object-fit: cover;
 `;
@@ -58,6 +60,15 @@ const CardContent = styled.div`
     gap: 0.8rem;
     padding: 8%;
     margin-bottom: 0.8rem;
+
+    h5 {
+        color: white;
+        font-weight: 700;
+    }
+
+    h6 {
+        color: white;
+    }
 `;
 
 const CardTagContainer = styled.div`
@@ -85,4 +96,4 @@ const FeaturedTag = styled(CardTag)`
     color: white; 
 `;
 
-export { CardContainer, CardImage, CardContent, CardTagContainer, CardTag, FeaturedTag };
+export { CardContainer, FeaturedCardContainer, CardImage, CardContent, CardTagContainer, CardTag, FeaturedTag };

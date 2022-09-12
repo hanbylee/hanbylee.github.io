@@ -1,7 +1,6 @@
 import { Suspense, useState, useEffect, useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei';
-import { PerspectiveCamera } from '@react-three/drei';
+import { PerspectiveCamera, OrbitControls, useGLTF, useAnimations } from '@react-three/drei';
 
 function Robot(props) {
     const [leftLightColor, setLeftLightColor] = useState('#2ee895');
@@ -34,7 +33,7 @@ function Robot(props) {
   
     useEffect(() => {
       if(!!orbitControlsRef.current){
-        console.log(orbitControlsRef.current);
+        // console.log(orbitControlsRef.current);
       }
     });
 
