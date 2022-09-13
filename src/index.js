@@ -27,6 +27,7 @@ import Dino from './pages/works/Dino';
 
 import Clouds from './pages/archives/Clouds';
 import Reflection from './pages/archives/Reflection';
+import Bloom from './pages/archives/Bloom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,6 +58,7 @@ root.render(
 
 			<Route path='/clouds' element={<Clouds />} />
 			<Route path='/reflection' element={<Reflection />} />
+			<Route path='/bloom' element={<Bloom />} />
       	</Routes>
     </ThemeProvider>
   </Router>

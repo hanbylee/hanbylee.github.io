@@ -49,6 +49,18 @@ function ArchiveContent() {
                                 </ArchiveTitle>
                             </ArchiveCardContainer>
                         </CleanLink>
+                        <CleanLink to='/bloom'>
+                            <ArchiveCardContainer>
+                                <ArchiveArt src="images/archives/bloom.png" />
+                                <ArchiveTitle>
+                                    <h5>Bloom</h5>
+                                    <ArchiveTagContainer>
+                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>three.js</ArchiveTag>
+                                    </ArchiveTagContainer>
+                                </ArchiveTitle>
+                            </ArchiveCardContainer>
+                        </CleanLink>
                     </ArchiveContentContainer>
                 </GlobalInner>
             </GlobalOuter>

@@ -5,7 +5,7 @@ import { Suspense, useRef } from 'react'
 import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLightUniformsLib'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Environment } from '@react-three/drei'
-import Model from "../../components/Model";
+import Model from "./models/ReflectionModel";
 
 RectAreaLightUniformsLib.init();
 
