@@ -23,7 +23,7 @@ function About() {
             <GlobalOuter>
                 <GlobalInner>
                     <AboutContent>
-                        <h3>From user research to development</h3>
+                        <h3 style={{ lineHeight: '100%', marginBottom: '1.6rem' }}>From user research to development</h3>
                         <p>
                             안녕하세요. 인터랙션 엔지니어 이한별입니다.
                             주로 Human-Robot Interaction(HRI)와 Human-Computer Interaction(HCI) 분야에서 인터랙션 디자인, 개발, 리서치를 진행하였습니다.

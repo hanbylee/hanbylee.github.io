@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
+    "@react-three/cannon": "^6.4.0",
     "@react-three/drei": "^9.19.7",
     "@react-three/fiber": "^8.3.1",
     "@testing-library/jest-dom": "^5.16.4",

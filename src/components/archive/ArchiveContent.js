@@ -12,9 +12,10 @@ const StyledArchiveContent = styled.div`
 const ArchiveContentContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 2.4rem;
+    justify-content: space-between;
 
     @media ${(p) => p.theme.device.tablet} {
+        gap: 2.4rem;
         justify-content: center;
     }
 `;
@@ -25,18 +26,6 @@ function ArchiveContent() {
             <GlobalOuter>
                 <GlobalInner>
                     <ArchiveContentContainer>
-                        <CleanLink to='/clouds'>
-                            <ArchiveCardContainer>
-                                <ArchiveArt src="images/archives/clouds.png" />
-                                <ArchiveTitle>
-                                    <h5>Clouds</h5>
-                                    <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
-                                        <ArchiveTag>three.js</ArchiveTag>
-                                    </ArchiveTagContainer>
-                                </ArchiveTitle>
-                            </ArchiveCardContainer>
-                        </CleanLink>
                         <CleanLink to='/reflection'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/reflection.png" />
@@ -54,6 +43,30 @@ function ArchiveContent() {
                                 <ArchiveArt src="images/archives/bloom.png" />
                                 <ArchiveTitle>
                                     <h5>Bloom</h5>
+                                    <ArchiveTagContainer>
+                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>three.js</ArchiveTag>
+                                    </ArchiveTagContainer>
+                                </ArchiveTitle>
+                            </ArchiveCardContainer>
+                        </CleanLink>
+                        <CleanLink to='/clouds'>
+                            <ArchiveCardContainer>
+                                <ArchiveArt src="images/archives/clouds.png" />
+                                <ArchiveTitle>
+                                    <h5>Clouds</h5>
+                                    <ArchiveTagContainer>
+                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>three.js</ArchiveTag>
+                                    </ArchiveTagContainer>
+                                </ArchiveTitle>
+                            </ArchiveCardContainer>
+                        </CleanLink>
+                        <CleanLink to='/boba'>
+                            <ArchiveCardContainer>
+                                <ArchiveArt src="images/archives/boba.png" />
+                                <ArchiveTitle>
+                                    <h5>Boba</h5>
                                     <ArchiveTagContainer>
                                         <ArchiveTag>react</ArchiveTag>
                                         <ArchiveTag>three.js</ArchiveTag>
