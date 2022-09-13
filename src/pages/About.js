@@ -6,6 +6,7 @@ import { GlobalOuter, GlobalInner } from "../styles/GloblaLayout";
 
 const StyledAbout = styled.div`
     width: 100vw;
+    min-height: 100vh;
     background: black;
 `;
 
