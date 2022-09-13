@@ -5,14 +5,18 @@ import { ArchiveCardContainer, ArchiveArt, ArchiveTitle, ArchiveTagContainer, Ar
 
 const StyledArchiveContent = styled.div`
     width: 100%;
+    min-height: 100vh;
     padding: 9.6rem 0;
 `;
 
 const ArchiveContentContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 2.4rem;
+
+    @media ${(p) => p.theme.device.tablet} {
+        justify-content: center;
+    }
 `;
 
 function ArchiveContent() {

@@ -17,6 +17,14 @@ import RoboticCabinets from './pages/works/Robotic-Cabinets';
 import FirstThingsFirst from './pages/works/FirstThingsFirst';
 import TapeBot from './pages/works/TapeBot';
 import BeOurGuest from './pages/works/BeOurGuest';
+import EmotionReflector from './pages/works/EmotionReflector';
+import NewsPrinter from './pages/works/NewsPrinter';
+import Innerstagram from './pages/works/Innerstagram';
+import LightFlow from './pages/works/LightFlow';
+import SoundCreator from './pages/works/SoundCreator';
+import ArvalTogether from './pages/works/ArvalTogether';
+import Dino from './pages/works/Dino';
+
 import Clouds from './pages/archives/Clouds';
 import Reflection from './pages/archives/Reflection';
 
@@ -39,6 +47,13 @@ root.render(
 			<Route path='/first-things-first' element={<FirstThingsFirst />} />
 			<Route path='/tapebot' element={<TapeBot />} />
 			<Route path='/be-our-guest' element={<BeOurGuest />} />
+			<Route path='/emotion-reflector' element={<EmotionReflector />} />
+			<Route path='/news-printer' element={<NewsPrinter />} />
+			<Route path='/innerstagram' element={<Innerstagram />} />
+			<Route path='/light-flow' element={<LightFlow />} />
+			<Route path='/sound-creator' element={<SoundCreator />} />
+			<Route path='/arval-together' element={<ArvalTogether />} />
+			<Route path='/dino' element={<Dino />} />
 
 			<Route path='/clouds' element={<Clouds />} />
 			<Route path='/reflection' element={<Reflection />} />

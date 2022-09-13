@@ -19,8 +19,8 @@ const ProjectInfoContainer = styled.div`
 
 const ProjectInfoImage = styled.img`
     width: 100%;
-    height: 48rem;
-    border-radius: 24rem;
+    height: 32rem;
+    border-radius: 16rem;
     src: url(${(p) => p.thumbnail});
     object-fit: cover;
     object-position: 50% 50%;
@@ -36,12 +36,12 @@ const ProjectInfoContent = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 3.2rem 6.4rem;
-    border-radius: 10rem;
+    padding: 3.2rem 6.4rem 1.6rem 6.4rem;
+    border-radius: 16rem;
     border-top: 0.5rem solid white;
-    border-right: 0.2rem solid white;
-    border-top: 0.5rem solid white;
-    border-left: 0.2rem solid white;
+    border-right: 0.1rem solid white;
+    border-bottom: 0.5rem solid white;
+    border-left: 0.1rem solid white;
 
     div {
         width: 40%;
@@ -53,6 +53,7 @@ const ProjectInfoContent = styled.div`
     }
 
     @media ${(p) => p.theme.device.tablet} {
+        border-radius: 10rem;
         padding: 4.8rem 3.2rem;
     }
 `;

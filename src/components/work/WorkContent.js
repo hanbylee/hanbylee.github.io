@@ -136,8 +136,8 @@ function WorkContent() {
                     </WorkContentDivider>
                     <WorkContentContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/emotion-reflector'>
+                                <CardImage src="images/emotion-reflector/thumbnail.jpg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#2E9AE8'}}>graphics</CardTag>
@@ -149,8 +149,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/news-printer'>
+                                <CardImage src="images/news-printer/thumbnail.jpg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#2E9AE8'}}>graphics</CardTag>
@@ -162,8 +162,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/innerstagram'>
+                                <CardImage src="images/innerstagram/thumbnail.jpg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#2E9AE8'}}>graphics</CardTag>
@@ -182,8 +182,8 @@ function WorkContent() {
                     </WorkContentDivider>
                     <WorkContentContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/hand-in-o'>
+                                <CardImage src="images/hand-in-o/thumbnail.jpeg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <FeaturedTag className='projectTag'>featured</FeaturedTag>
@@ -196,8 +196,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/light-flow'>
+                                <CardImage src="images/light-flow/thumbnail.png" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#7087FE'}}>product</CardTag>
@@ -209,8 +209,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/sound-creator'>
+                                <CardImage src="images/sound-creator/thumbnail.jpg" style={{objectPosition: '30% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#7087FE'}}>product</CardTag>
@@ -229,8 +229,8 @@ function WorkContent() {
                     </WorkContentDivider>
                     <WorkContentContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/money-planet'>
+                                <CardImage src="images/money-planet/thumbnail.jpg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <FeaturedTag className='projectTag'>featured</FeaturedTag>
@@ -243,8 +243,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/arval-together'>
+                                <CardImage src="images/arval-together/thumbnail.jpg" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#EE87A0'}}>service</CardTag>
@@ -256,8 +256,8 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer>
-                            <CleanLink to='#'>
-                                <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CleanLink to='/dino'>
+                                <CardImage src="images/dino/thumbnail.png" style={{objectPosition: '50% 50%'}}/>
                                 <CardContent>
                                     <CardTagContainer>
                                         <CardTag className='projectTag' style={{background:'#EE87A0'}}>service</CardTag>
@@ -269,7 +269,7 @@ function WorkContent() {
                             </CleanLink>
                         </CardContainer>
                         <CardContainer style={{filter: 'opacity(0.5)'}}>
-                            <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CardImage src="images/bell-therapeutics/thumbnail.gif" style={{objectPosition: '50% 50%'}}/>
                             <CardContent>
                                 <CardTagContainer>
                                     <CardTag className='projectTag' style={{background:'#EE87A0'}}>service</CardTag>
@@ -281,7 +281,7 @@ function WorkContent() {
                             </CardContent>
                         </CardContainer>
                         <CardContainer style={{filter: 'opacity(0.5)'}}>
-                            <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>
+                            <CardImage src="images/wonder-wondo/thumbnail.gif" style={{objectPosition: '50% 50%'}}/>
                             <CardContent>
                                 <CardTagContainer>
                                     <CardTag className='projectTag' style={{background:'#EE87A0'}}>service</CardTag>

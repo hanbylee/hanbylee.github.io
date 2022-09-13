@@ -47,7 +47,7 @@ const FeaturedCardContainer = styled(CardContainer)`
 
 const CardImage = styled.img`
     width: 100%;
-    height: 24rem;
+    height: 32rem;
     border-radius: 4rem 4rem 0 0;
     src: url(${(p) => p.thumbnail});
     object-fit: cover;
