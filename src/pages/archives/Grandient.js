@@ -10,10 +10,13 @@ const StyledGradient = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 0px;
 
-    &:hover {
-        .animatedDiv::before {
-            animation-play-state: paused;
+    @media ${(p) => p.theme.device.desktop} {
+        &:hover {
+            .animatedDiv::before {
+                animation-play-state: paused;
+            }
         }
     }
 `;
@@ -41,6 +44,7 @@ const GradinetLoader = styled.div`
     height: clamp(8rem , 11.2vw, 16rem);
     position: relative;
     overflow: hidden;
+    font-size: 0px;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
@@ -53,6 +57,7 @@ const GradinetLoader = styled.div`
         top: -50%;
         left: -50%;
         position: absolute;
+        font-size: 0px;
     }
 
     :nth-child(1) {
@@ -112,7 +117,7 @@ function Gradient() {
                         </StyledGradient>
 					</ArtContainer>
 					<h5>Gradient</h5>
-					<p></p>
+					<p>마우스 오버 시 애니메이션 중지 (데스크탑)</p>
                 </ArchiveInner>
             </GlobalOuter>
         </StyledArt>

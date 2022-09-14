@@ -9,7 +9,7 @@ function Boba() {
             <Header />
             <GlobalOuter>
                 <ArchiveInner>
-					<ArtContainer>
+					<ArtContainer style={{ cursor:'default' }}>
                         <Model />
 					</ArtContainer>
 					<h5>Boba</h5>
