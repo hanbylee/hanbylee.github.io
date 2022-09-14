@@ -33,6 +33,18 @@ function ArchiveContent() {
             <GlobalOuter>
                 <GlobalInner>
                     <ArchiveContentContainer data-aos="fade-up" data-aos-duration="2000">
+                        <CleanLink to='/gradient'>
+                            <ArchiveCardContainer>
+                                <ArchiveArt src="images/archives/gradient.png" />
+                                <ArchiveTitle>
+                                    <h5>Gradient</h5>
+                                    <ArchiveTagContainer>
+                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>styled-components</ArchiveTag>
+                                    </ArchiveTagContainer>
+                                </ArchiveTitle>
+                            </ArchiveCardContainer>
+                        </CleanLink>
                         <CleanLink to='/reflection'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/reflection.png" />

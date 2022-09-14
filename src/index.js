@@ -29,6 +29,7 @@ import Clouds from './pages/archives/Clouds';
 import Reflection from './pages/archives/Reflection';
 import Bloom from './pages/archives/Bloom';
 import Boba from './pages/archives/Boba';
+import Gradient from './pages/archives/Grandient';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -56,10 +57,11 @@ root.render(
 			<Route path='/sound-creator' element={<SoundCreator />} />
 			<Route path='/arval-together' element={<ArvalTogether />} />
 			<Route path='/dino' element={<Dino />} />
-
-			<Route path='/clouds' element={<Clouds />} />
+			
+			<Route path='/gradient' element={<Gradient />} />
 			<Route path='/reflection' element={<Reflection />} />
 			<Route path='/bloom' element={<Bloom />} />
+			<Route path='/clouds' element={<Clouds />} />
 			<Route path='/boba' element={<Boba />} />
       	</Routes>
     </ThemeProvider>

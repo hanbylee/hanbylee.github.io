@@ -3,6 +3,11 @@ import styled from "styled-components";
 const ArchiveCardContainer = styled.div`
     width: 32rem;
     height: 32rem;
+    margin-bottom: 2.4rem;
+
+    @media ${(p) => p.theme.device.tablet} {
+        margin-bottom: 0;
+    }
 
     :hover {
        filter: brightness(0.8);
