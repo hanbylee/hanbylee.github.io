@@ -23,7 +23,16 @@ const rotate = keyframes`
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(359deg);
+        transform: rotate(360deg);
+    }
+`;
+
+const rotatereverse = keyframes`
+   from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
     }
 `;
 
@@ -32,6 +41,10 @@ const GradinetLoader = styled.div`
     height: clamp(8rem , 11.2vw, 16rem);
     position: relative;
     overflow: hidden;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
 
     ::before {
         content: "";
@@ -58,9 +71,8 @@ const GradinetLoader = styled.div`
 
     :nth-child(even) {
         ::before {
-            background-image: conic-gradient(from 181deg at 50% 50%, #2EE895 0deg, #657ED6 361deg);
-            animation: ${rotate} 4s ease-in-out infinite;
-            animation-direction: reverse;
+            background-image: conic-gradient(from 180deg at 50% 50%, #2EE895 0deg, #657ED6 360deg);
+            animation: ${rotatereverse} 4s ease-in-out infinite;
         }
     }
 `;
@@ -68,9 +80,8 @@ const GradinetLoader = styled.div`
 const GradinetLoaderReverse = styled(GradinetLoader)`
     :nth-child(odd) {
         ::before {
-            background-image: conic-gradient(from 1deg at 50% 50%, #2EE895 0deg, #657ED6 360deg);
-            animation: ${rotate} 4s ease-in-out infinite;
-            animation-direction: reverse;
+            background-image: conic-gradient(from 0deg at 50% 50%, #2EE895 0deg, #657ED6 360deg);
+            animation: ${rotatereverse} 4s ease-in-out infinite;
         }
     }
 
