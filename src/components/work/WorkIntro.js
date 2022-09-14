@@ -1,7 +1,11 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styled from "styled-components";
 import { GlobalOuter, GlobalInner } from "../../styles/GloblaLayout";
 import { CleanLink } from "../CustomLink";
 import { FeaturedCardContainer, CardImage, CardContent, CardTagContainer, CardTag, FeaturedTag } from "./WorkCard";
+
 const StyledWorkIntro = styled.div`
     width: 100%;
     min-height: 100vh;
@@ -22,11 +26,15 @@ const WorkIntroContainer = styled.div`
 `;
 
 function WorkIntro() {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <StyledWorkIntro>
             <GlobalOuter style={{minHeight: '100vh'}}>
                 <GlobalInner>
-                    <WorkIntroContainer>
+                    <WorkIntroContainer data-aos="fade-up" data-aos-duration="2000">
                         <FeaturedCardContainer>
                             <CleanLink to='/this-or-that'>
                                 <CardImage src="images/this-or-that/thumbnail.png" style={{objectPosition: '100% 100%'}}/>

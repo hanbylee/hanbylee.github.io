@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styled from "styled-components";
 import { GlobalOuter } from "../../styles/GloblaLayout";
 import { Canvas } from "@react-three/fiber";
@@ -43,11 +46,15 @@ const HomeIntroContent = styled.div`
 `;
 
 function HomeIntro() {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <StyledHomeIntro>
             <GlobalOuter>
                 <HomeIntroContent>
-                    <h1>Hello world!<br /> I'm Hanbyeol,<br />an interaction engineer<br />specialized in<br /> AI and graphics.</h1>
+                    <h1  data-aos="fade-up" data-aos-duration="2000">Hello world!<br /> I'm Hanbyeol,<br />an interaction engineer<br />specialized in<br /> AI and graphics.</h1>
                     <HomeIntroBg />
                     <Canvas className='threejs'>
                         <Robot />

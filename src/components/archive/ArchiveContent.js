@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styled from "styled-components";
 import { GlobalOuter, GlobalInner } from "../../styles/GloblaLayout";
 import { CleanLink } from "../CustomLink";
@@ -21,11 +24,15 @@ const ArchiveContentContainer = styled.div`
 `;
 
 function ArchiveContent() {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <StyledArchiveContent>
             <GlobalOuter>
                 <GlobalInner>
-                    <ArchiveContentContainer>
+                    <ArchiveContentContainer data-aos="fade-up" data-aos-duration="2000">
                         <CleanLink to='/reflection'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/reflection.png" />

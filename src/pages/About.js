@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styled from "styled-components";
 import Header from "../components/Header";
 import { Bottom } from "../components/Bottom";
@@ -17,12 +20,16 @@ const AboutContent = styled.div`
 `;
 
 function About() {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <StyledAbout>
             <Header />
             <GlobalOuter>
                 <GlobalInner>
-                    <AboutContent>
+                    <AboutContent data-aos="fade-up" data-aos-duration="2000">
                         <h3 style={{ lineHeight: '100%', marginBottom: '1.6rem' }}>From user research to development</h3>
                         <p>
                             안녕하세요. 인터랙션 엔지니어 이한별입니다.

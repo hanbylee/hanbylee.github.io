@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { useRef } from 'react';
-import { useGLTF, Reflector, Text } from '@react-three/drei';
+import { useGLTF, Reflector } from '@react-three/drei';
 
 const material = new THREE.MeshPhysicalMaterial({
     color: new THREE.Color('#7987F0').convertSRGBToLinear(),
@@ -29,9 +29,6 @@ export default function Model(props) {
                 args={[70, 70]}>
                 {(Material, props) => <Material metalness={0.25} color="#4856A0" roughness={1} {...props} />}
             </Reflector>
-            <Text position={[0, 1, -1]} fontSize={0.6} color="white" font="/noto.woff" material-fog={false} letterSpacing={0}>
-                hello
-            </Text>
             <mesh receiveShadow castShadow material={material} geometry={nodes.Cube.geometry} position={[0, 1, 0]} />
             <mesh receiveShadow castShadow material={material} geometry={nodes.Sphere.geometry} position={[3, 1, 0]} />
             <mesh receiveShadow castShadow material={material} geometry={nodes.Icosphere.geometry} position={[-3, 1, 0]} />
