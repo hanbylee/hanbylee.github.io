@@ -54,7 +54,7 @@ function HomeIntro() {
         <StyledHomeIntro>
             <GlobalOuter>
                 <HomeIntroContent>
-                    <h1  data-aos="fade-up" data-aos-duration="2000">Hello world!<br /> I'm Hanbyeol,<br />an interaction engineer<br />specialized in<br /> AI and graphics.</h1>
+                    <h1  data-aos="fade-up" data-aos-duration="2000">Hello world!<br /> I'm Hanbyeol,<br />a UX engineer<br />specialized in<br /> AI and graphics.</h1>
                     <HomeIntroBg />
                     <Canvas className='threejs'>
                         <Robot />
