@@ -33,13 +33,25 @@ function ArchiveContent() {
             <GlobalOuter>
                 <GlobalInner>
                     <ArchiveContentContainer data-aos="fade-up" data-aos-duration="2000">
+                    <a href="https://hanby-uxengineer.github.io/3d-materials/" style={{ color: 'white', textDecoration:'none' }}>
+                            <ArchiveCardContainer>
+                                <ArchiveArt src="images/archives/3dmaterials.png" />
+                                <ArchiveTitle>
+                                    <h5>3D Materials</h5>
+                                    <ArchiveTagContainer>
+                                        <ArchiveTag>react.js</ArchiveTag>
+                                        <ArchiveTag>three.js</ArchiveTag>
+                                    </ArchiveTagContainer>
+                                </ArchiveTitle>
+                            </ArchiveCardContainer>
+                        </a>
                         <CleanLink to='/gradient'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/gradient.png" />
                                 <ArchiveTitle>
                                     <h5>Gradient</h5>
                                     <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>react.js</ArchiveTag>
                                         <ArchiveTag>styled-components</ArchiveTag>
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
@@ -51,7 +63,7 @@ function ArchiveContent() {
                                 <ArchiveTitle>
                                     <h5>Reflection</h5>
                                     <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>react.js</ArchiveTag>
                                         <ArchiveTag>three.js</ArchiveTag>
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
@@ -63,31 +75,31 @@ function ArchiveContent() {
                                 <ArchiveTitle>
                                     <h5>Bloom</h5>
                                     <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>react.js</ArchiveTag>
                                         <ArchiveTag>three.js</ArchiveTag>
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
                             </ArchiveCardContainer>
                         </CleanLink>
-                        <CleanLink to='/clouds'>
+                        {/* <CleanLink to='/clouds'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/clouds.png" />
                                 <ArchiveTitle>
                                     <h5>Clouds</h5>
                                     <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>react.js</ArchiveTag>
                                         <ArchiveTag>three.js</ArchiveTag>
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
                             </ArchiveCardContainer>
-                        </CleanLink>
+                        </CleanLink> */}
                         <CleanLink to='/boba'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/boba.png" />
                                 <ArchiveTitle>
                                     <h5>Boba</h5>
                                     <ArchiveTagContainer>
-                                        <ArchiveTag>react</ArchiveTag>
+                                        <ArchiveTag>react.js</ArchiveTag>
                                         <ArchiveTag>three.js</ArchiveTag>
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
