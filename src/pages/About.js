@@ -32,7 +32,7 @@ function About() {
                     <AboutContent data-aos="fade-up" data-aos-duration="2000">
                         <h3 style={{ lineHeight: '100%', marginBottom: '1.6rem' }}>From user research to development</h3>
                         <p>
-                            안녕하세요. 인터랙션 엔지니어 이한별입니다.
+                            안녕하세요. UX 엔지니어 이한별입니다.
                             주로 Human-Robot Interaction(HRI)와 Human-Computer Interaction(HCI) 분야에서 인터랙션 디자인, 개발, 리서치를 진행하였습니다.
                             학부에서 OpenGL과 OpenCV 기반의 컴퓨터 그래픽스와 비전 프로그래밍을 공부하였고,
                             대학원에서 아두이노와 라즈베리파이를 사용한 HCI 디자인을 연구하고 사용자 조사 방법론을 배웠습니다.
