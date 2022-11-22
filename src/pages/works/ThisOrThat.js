@@ -11,7 +11,7 @@ function ThisOrThat() {
             <GlobalOuter>
                 <ProjectInner>
                     <ProjectInfoContainer>
-                        <ProjectInfoImage src='images/this-or-that/main.jpg' />
+                        <ProjectInfoImage src='images/this-or-that/00_main.jpg' />
                         <div>
                             <h1>This or That</h1>
                             <h5 className='korean' style={{ fontWeight:300 }}>소셜 로봇의 포인팅 제스처와 발화 방식에 따른 사용자의 인식 연구</h5>
@@ -67,7 +67,7 @@ function ThisOrThat() {
                                 하지만, 로봇은 언어적 의사소통에 있어 대부분 서술적 직시어(예시: 왼쪽에서 두 번째)를 사용한다.
                             </p>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/background-01.png' alt='background01'/>
+                                <img src='images/this-or-that/11_background.png' loading='lazy' alt='background01'/>
                                 <p>직시어는 위치격 직시어와 서술적 직시어로 나뉠 수 있다.</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
@@ -79,7 +79,7 @@ function ThisOrThat() {
                                 하지만, 대부분의 로봇 포인팅 제스처에 대한 연구는 손가락으로 가리키는 것으로 제한되었다.
                             </p>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/background-02.png' alt='background02'/>
+                                <img src='images/this-or-that/12_background.png' loading='lazy' alt='background02'/>
                                 <p>사람은 다양한 신체 부위를 사용하여 포인팅 제스처를 취할 수 있다.</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
@@ -91,7 +91,7 @@ function ThisOrThat() {
                                 사람은 시선과 돌출된 코를 통해 포인팅 제스처를 취할 수 있는 반면에, 소셜 로봇의 머리는 대부분 평면 디스플레이를 사용하기 때문에 정확한 포인팅이 가능한지 알 수 없다.
                             </p>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/background-03.png' alt='background03'/>
+                                <img src='images/this-or-that/13_background.png' loading='lazy' alt='background03'/>
                                 <p>사람은 시선과 돌출된 코를 통해 포인팅 제스처를 쉽게 취할 수 있다.</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
@@ -132,7 +132,7 @@ function ThisOrThat() {
                                 <li>눈이 없는(without eyes)</li>
                             </ul>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/study-design-01.png' alt='studydesign01'/>
+                                <img src='images/this-or-that/21_study-design.png' loading='lazy' alt='studydesign01'/>
                                 <p>독립 변수: 언어(2가지) X 포인팅 제스처(2가지) X 시선(2가지)</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
@@ -155,7 +155,7 @@ function ThisOrThat() {
                                 </ul>
                             </details>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/study-design-02.png' alt='studydesign02'/>
+                                <img src='images/this-or-that/22_study-design.png' loading='lazy' alt='studydesign02'/>
                                 <p>제품 프로토타입</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
@@ -203,8 +203,8 @@ function ThisOrThat() {
                             <details>
                                 <summary style={{cursor:'pointer'}}>질문 아이템</summary>
                                 <ProjectContentImg>
-                                    <img src='images/this-or-that/study-design-03.png' alt='studydesign03'/>
-                                    <img src='images/this-or-that/study-design-04.png' alt='studydesign04'/>
+                                    <img src='images/this-or-that/23_study-design.png' loading='lazy' alt='studydesign03'/>
+                                    <img src='images/this-or-that/24_study-design.png' loading='lazy' alt='studydesign04'/>
                                     <p>4가지 공통 측정과 2가지 추가 측정에 대한 아이템</p>
                                 </ProjectContentImg>
                             </details>
@@ -215,8 +215,8 @@ function ThisOrThat() {
                             <h2>Seat Guide</h2>
                             <p>로봇은 피험자를 맞이하고 자리를 안내한다. 피험자는 연구실에 배치된 5개의 의자 중 로봇이 포인팅 하는 의자에 앉도록 요청받았다.</p>
                             <ProjectContentImg>
-                                <img src='images/this-or-that/seat-guide-01.png' alt='seatguide01'/>
-                                <img src='images/this-or-that/seat-guide-02.png' alt='seatguide02'/>
+                                <img src='images/this-or-that/31_seat-guide.png' loading='lazy' alt='seatguide01'/>
+                                <img src='images/this-or-that/seat-guide-02.png' loading='lazy' alt='seatguide02'/>
                                 <p>자리 안내 실험 환경</p>
                             </ProjectContentImg>
                         </ProjectContentInner>
