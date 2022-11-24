@@ -24,7 +24,7 @@ function ArvalTogether() {
                             </div>
                             <div>
                                 <h6>Affiliation</h6>
-                                <p>UNIST 창의디자인공학과 / Enhancers(Italian UX agency)</p>
+                                <p>UNIST 창의디자인공학과 / Enhancers(UX agency)</p>
                             </div>
                             <div>
                                 <h6>Role</h6>
@@ -37,13 +37,6 @@ function ArvalTogether() {
                             <div>
                                 <h6>Duration</h6>
                                 <p>2018.06 (3개월)</p>
-                            </div>
-                            <div>
-                                <h6>Achievement</h6>
-                                <p>
-                                    <a href="https://dl.acm.org/doi/10.1145/3371382.3378200">ACM/IEEE HRI 2020 학회 Demo (3rd Prize)</a><span> / </span>
-                                    <a href="https://doi.org/10.8080/1020200089889">기술 특허</a>
-                                </p>
                             </div>
                         </ProjectInfoContent>
                     </ProjectInfoContainer>
