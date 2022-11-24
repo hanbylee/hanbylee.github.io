@@ -38,6 +38,8 @@ function ArvalTogether() {
                                 <h6>Duration</h6>
                                 <p>2018.06 (3개월)</p>
                             </div>
+                            <div>
+                            </div>
                         </ProjectInfoContent>
                     </ProjectInfoContainer>
                     <ProjectContentOuter>
