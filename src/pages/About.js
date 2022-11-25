@@ -43,7 +43,7 @@ function About() {
                             기술을 바탕으로 프로세스 전반에 걸쳐 다양한 직군을 연결하는 역할을 목표로 삼고 있습니다.
                         </p>
                         <div>
-                            <a style={{color:'white'}} href="https://onyx-trail-af6.notion.site/CV-03c5b3366e6b49b78d4f6fe06bd38397">
+                            <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1DGps1Ye0mnAqAFsvwoHV7AA1i5rpDH09?usp=share_link">
                                 <h6>Curriculum Vitae</h6>
                             </a>
                         </div>
