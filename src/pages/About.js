@@ -44,7 +44,7 @@ function About() {
                         </p>
                         <div>
                             <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1DGps1Ye0mnAqAFsvwoHV7AA1i5rpDH09?usp=share_link">
-                                <h6>Curriculum Vitae</h6>
+                                <h6>CV & Portfolio</h6>
                             </a>
                         </div>
                     </AboutContent>
