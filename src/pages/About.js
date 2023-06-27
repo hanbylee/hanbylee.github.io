@@ -37,14 +37,17 @@ function About() {
                             학부에서 OpenGL과 OpenCV 기반의 컴퓨터 그래픽스와 비전 프로그래밍을 공부하였고,
                             대학원에서 아두이노와 라즈베리파이를 사용한 HCI 디자인을 연구하고 사용자 조사 방법론을 배웠습니다.
                             졸업 이후, KIST AIㆍ로봇연구소 지능로봇연구단에서 HRI 디자인과 정량 데이터 분석을 진행하였습니다.
+                            현재는 비-로보틱스에서 서빙 로봇 서비스 기획을 맡고있으며, 배민 로봇 앱과 로봇 연동 서비스 기획ㆍ개발을 진행하고 있습니다.
                             진행했던 프로젝트를 통해, HCI Korea Creative Award 대상을 수상하였고, HRI, IROS, RO-MAN을 비롯한 여러 국제 로봇 학회와 IASDR 국제 디자인 학회에서 논문을 게재하였습니다.
-                            현재, 프로젝트의 유저 리서치부터 기술 개발까지 직접 진행하는 UX 엔지니어의 역할을 수행하고 있습니다.
+                        </p>
+                        <p>
+                            저는 프로젝트의 유저 리서치부터 기술 개발까지 직접 진행하는 UX 엔지니어의 역할을 수행하고 있습니다.
                             특히, 빠르고 반복적인 프로토타입 구현과 협업에 강점을 가지고 있습니다.
                             기술을 바탕으로 프로세스 전반에 걸쳐 다양한 직군을 연결하는 역할을 목표로 삼고 있습니다.
                         </p>
                         <div>
                             <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1DGps1Ye0mnAqAFsvwoHV7AA1i5rpDH09?usp=share_link">
-                                <h6>CV & Portfolio</h6>
+                                <h6>CV</h6>
                             </a>
                         </div>
                     </AboutContent>
