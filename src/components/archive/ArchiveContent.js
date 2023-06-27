@@ -57,7 +57,7 @@ function ArchiveContent() {
                                 </ArchiveTitle>
                             </ArchiveCardContainer>
                         </CleanLink>
-                        <CleanLink to='/reflection'>
+                        {/* <CleanLink to='/reflection'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/reflection.png" />
                                 <ArchiveTitle>
@@ -68,7 +68,7 @@ function ArchiveContent() {
                                     </ArchiveTagContainer>
                                 </ArchiveTitle>
                             </ArchiveCardContainer>
-                        </CleanLink>
+                        </CleanLink> */}
                         <CleanLink to='/bloom'>
                             <ArchiveCardContainer>
                                 <ArchiveArt src="images/archives/bloom.png" />
